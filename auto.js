@@ -50,5 +50,5 @@ let Auto = function() {
 let auto = new Auto();
 
 if (confirm ('Авто. ОК = ВКЛ, Отмена = Выкл (пропустить)')) { 
-    alert(auto.number());
+    auto.number();
   };
